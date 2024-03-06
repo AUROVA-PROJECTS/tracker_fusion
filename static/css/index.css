@@ -133,5 +133,23 @@ body {
   font-size: smaller;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: attr(width);
+}
+
+.left {
+  display: "";
+  float: left;
+  width: attr(width);
+}
+
+.right {
+  display: "";
+  float: right;
+  width: attr(width);
+}
 
 
